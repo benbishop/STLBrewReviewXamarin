@@ -36,6 +36,9 @@
     <Reference Include="Should">
       <HintPath>..\packages\Should.1.1.20\lib\Should.dll</HintPath>
     </Reference>
+    <Reference Include="FakeItEasy">
+      <HintPath>..\packages\FakeItEasy.1.21.0\lib\net40\FakeItEasy.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -43,14 +46,22 @@
       <Project>{7B3A6205-27DB-48B2-8576-D5C4A46070D2}</Project>
       <Name>STLBrewReviewMobile</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MonkeyArms\MonkeyArms.csproj">
+      <Project>{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}</Project>
+      <Name>MonkeyArms</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Breweries\" />
     <Folder Include="Beers\" />
+    <Folder Include="Mock\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Breweries\BreweryModelTest.cs" />
     <Compile Include="Beers\BeerModelTest.cs" />
+    <Compile Include="Breweries\GetBreweriesCommandTest.cs" />
+    <Compile Include="Breweries\GetBreweriesServiceTest.cs" />
+    <Compile Include="Mock\JSON.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

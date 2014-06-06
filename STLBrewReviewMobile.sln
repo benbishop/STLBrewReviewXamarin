@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STLBrewReviewMobile.Android
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STLBrewReviewTest", "STLBrewReviewTest\STLBrewReviewTest.csproj", "{3643C7E4-121B-4A0D-AE81-4BBA97237EF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyArms", "MonkeyArms\MonkeyArms.csproj", "{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,22 @@ Global
 		{8CDCBBC7-9CAE-4014-8FCE-DA9A7F36F9E1}.Release|iPhone.Build.0 = Release|Any CPU
 		{8CDCBBC7-9CAE-4014-8FCE-DA9A7F36F9E1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{8CDCBBC7-9CAE-4014-8FCE-DA9A7F36F9E1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Release|iPhone.Build.0 = Release|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = iOS\STLBrewReviewMobile.iOS.csproj

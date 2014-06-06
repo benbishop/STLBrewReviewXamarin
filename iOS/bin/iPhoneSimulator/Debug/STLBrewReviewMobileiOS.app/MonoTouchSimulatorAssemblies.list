@@ -25,3 +25,15 @@ System.Net.Http.dll
 STLBrewReviewMobile.dll
 System.Runtime.Serialization.Primitives.dll
 System.Runtime.Serialization.dll
+MonkeyArms.dll
+TinyIOC.dll
+Newtonsoft.Json.dll
+System.Text.Encoding.dll
+System.Text.RegularExpressions.dll
+System.Xml.ReaderWriter.dll
+System.Xml.XDocument.dll
+System.Xml.Linq.dll
+System.Text.Encoding.Extensions.dll
+System.Diagnostics.Tools.dll
+Microsoft.CSharp.dll
+Mono.CSharp.dll
