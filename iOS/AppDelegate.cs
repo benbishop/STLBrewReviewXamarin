@@ -6,6 +6,7 @@ using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
 using Xamarin.Forms;
+using STLBrewReview.Mobile;
 
 namespace STLBrewReviewMobile.iOS
 {

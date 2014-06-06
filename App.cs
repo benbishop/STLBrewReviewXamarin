@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace STLBrewReviewMobile
+namespace STLBrewReview.Mobile
 {
 	public class App
 	{

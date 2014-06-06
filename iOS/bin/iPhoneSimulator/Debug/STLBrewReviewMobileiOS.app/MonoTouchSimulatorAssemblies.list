@@ -23,3 +23,5 @@ System.Linq.dll
 System.Diagnostics.Debug.dll
 System.Net.Http.dll
 STLBrewReviewMobile.dll
+System.Runtime.Serialization.Primitives.dll
+System.Runtime.Serialization.dll

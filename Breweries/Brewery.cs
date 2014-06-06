@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace STLBrewReviewMobile
+namespace STLBrewReview.Mobile.Breweries
 {
 	[DataContract (Name = "brewery")]
 	public class Brewery
