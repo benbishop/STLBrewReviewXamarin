@@ -46,9 +46,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Breweries\" />
+    <Folder Include="Beers\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Breweries\BreweryModelTest.cs" />
+    <Compile Include="Beers\BeerModelTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
