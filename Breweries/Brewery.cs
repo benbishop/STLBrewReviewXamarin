@@ -6,6 +6,9 @@ namespace STLBrewReview.Mobile.Breweries
 	[DataContract (Name = "brewery")]
 	public class Brewery
 	{
+		[DataMember (Name = "name")] 
+		public string name{ get; set; }
+
 		[DataMember (Name = "phone")] 
 		public string phone{ get; set; }
 
@@ -39,11 +42,11 @@ namespace STLBrewReview.Mobile.Breweries
 		[DataMember (Name = "created_at")] 
 		public DateTime created_at{ get; set; }
 
-		[DataMember (Name = "image_left")] 
-		public int image_left{ get; set; }
-
-		[DataMember (Name = "image_top")] 
-		public int image_top{ get; set; }
+		//		[DataMember (Name = "image_left")]
+		//		public int image_left{ get; set; }
+		//
+		//		[DataMember (Name = "image_top")]
+		//		public int image_top{ get; set; }
 
 		[DataMember (Name = "website_url")] 
 		public string website_url{ get; set; }

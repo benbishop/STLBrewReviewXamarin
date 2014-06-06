@@ -14,6 +14,10 @@ namespace STLBrewReview.Mobile.Breweries
 		{
 		}
 
+		public GetBreweriesWebService (IWebClient webClient) : base (webClient)
+		{
+		}
+
 		public virtual void Execute ()
 		{
 			WebClient.ResponseReceived += (object sender, EventArgs e) => {

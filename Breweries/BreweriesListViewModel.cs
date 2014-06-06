@@ -4,9 +4,11 @@ using System.Collections.ObjectModel;
 
 namespace STLBrewReview.Mobile.Breweries
 {
-	public class BreweriesViewModel:BaseViewModel
+	public class BreweriesListViewModel:BaseViewModel
 	{
-		public BreweriesViewModel ()
+		public static string BreweriesPropName = "Breweries";
+
+		public BreweriesListViewModel ()
 		{
 			Title = "Breweries";
 		}
@@ -20,7 +22,7 @@ namespace STLBrewReview.Mobile.Breweries
 			get { return breweries; }
 			set {
 				breweries = value;
-				OnPropertyChanged ("Breweries");
+				OnPropertyChanged (BreweriesPropName);
 			}
 		}
 	}

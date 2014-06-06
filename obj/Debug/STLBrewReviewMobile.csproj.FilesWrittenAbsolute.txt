@@ -16,3 +16,6 @@
 /Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile49.AssemblyAttribute.cs
 /Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/bin/Debug/MonkeyArms.dll
 /Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/bin/Debug/MonkeyArms.dll.mdb
+/Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/bin/Debug/System.Net.Http.dll
+/Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/bin/Debug/System.Net.Http.Primitives.dll
+/Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/bin/Debug/System.Net.Http.Extensions.dll

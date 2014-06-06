@@ -40,8 +40,9 @@ namespace STLBrewReviewTest
 		[SetUp]
 		public void InitSUT ()
 		{
-			ServiceUT = new GetBreweriesWebService ();
+
 			FakeWebClient = A.Fake<IWebClient> ();
+			ServiceUT = new GetBreweriesWebService (FakeWebClient);
 			ServiceUT.WebClient = FakeWebClient;
 		}
 	}

@@ -16,14 +16,20 @@ namespace STLBrewReview.Mobile.Global
 		private string title = string.Empty;
 		public const string TitlePropertyName = "Title";
 
-		/// <summary>
-		/// Gets or sets the "Title" property
-		/// </summary>
-		/// <value>The title.</value>
 		public string Title {
 			get { return title; }
 			set { SetProperty (ref title, value, TitlePropertyName); }
 		}
+
+		private bool ready = false;
+		public const string ReadyPropertyName = "Ready";
+
+		public bool Ready {
+			get { return ready; }
+			set { SetProperty (ref ready, value, ReadyPropertyName); }
+		}
+
+
 
 		protected void SetProperty<T> (
 			ref T backingStore, T value,

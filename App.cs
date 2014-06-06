@@ -1,5 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
+using STLBrewReview.Mobile.Breweries;
+using STLBrewReview.Mobile.Config;
 
 namespace STLBrewReview.Mobile
 {
@@ -7,13 +9,15 @@ namespace STLBrewReview.Mobile
 	{
 		public static Page GetMainPage ()
 		{	
-			return new ContentPage { 
-				Content = new Label {
-					Text = "Hello, Forms !",
-					VerticalOptions = LayoutOptions.CenterAndExpand,
-					HorizontalOptions = LayoutOptions.CenterAndExpand,
-				},
+			BrewReviewContext.Init ();
+
+			var navigationPage = new NavigationPage (new BreweriesListView ()) {
+
+
 			};
+
+
+			return navigationPage;
 		}
 	}
 }
