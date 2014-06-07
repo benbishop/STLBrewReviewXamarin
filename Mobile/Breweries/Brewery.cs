@@ -51,6 +51,9 @@ namespace STLBrewReview.Mobile.Breweries
 		[DataMember (Name = "website_url")] 
 		public string website_url{ get; set; }
 
+		[DataMember (Name = "facebook_url")] 
+		public string facebook_url{ get; set; }
+
 		public Brewery ()
 		{
 		}

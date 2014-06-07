@@ -59,7 +59,7 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 					},
 
 					beersListView,
-					new ActionsMenu ()
+					new ActionsMenu (VM.Actions)
 				}
 
 			};
