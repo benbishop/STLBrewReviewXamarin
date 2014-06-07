@@ -1,6 +1,6 @@
 ﻿using System;
 using MonkeyArms;
-using STLBrewReview.Mobile.Breweries;
+using STLBrewReview.Mobile.Breweries.List;
 using STLBrewReview.Mobile.Global;
 
 namespace STLBrewReview.Mobile.Config

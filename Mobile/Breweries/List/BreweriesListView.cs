@@ -2,8 +2,9 @@
 using Xamarin.Forms;
 using MonkeyArms;
 using STLBrewReview.Mobile.Global;
+using STLBrewReview.Mobile.Breweries.Detail;
 
-namespace STLBrewReview.Mobile.Breweries
+namespace STLBrewReview.Mobile.Breweries.List
 {
 	public class BreweriesListView:BaseView
 	{

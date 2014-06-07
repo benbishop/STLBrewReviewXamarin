@@ -1,7 +1,7 @@
 ﻿using System;
 
 using Xamarin.Forms;
-using STLBrewReview.Mobile.Breweries;
+using STLBrewReview.Mobile.Breweries.List;
 using STLBrewReview.Mobile.Config;
 
 namespace STLBrewReview.Mobile

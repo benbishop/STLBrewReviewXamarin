@@ -34,22 +34,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Breweries\Brewery.cs" />
     <Compile Include="Beers\Beer.cs" />
-    <Compile Include="Breweries\GetBreweriesCommand.cs" />
     <Compile Include="Global\IWebClient.cs" />
-    <Compile Include="Breweries\GetBreweriesWebService.cs" />
     <Compile Include="Global\BaseWebService.cs" />
     <Compile Include="Global\BaseViewModel.cs" />
     <Compile Include="Global\INotifyPropertyChanging.cs" />
-    <Compile Include="Breweries\BreweriesListViewModel.cs" />
-    <Compile Include="Breweries\BreweriesListView.cs" />
     <Compile Include="Global\BaseView.cs" />
     <Compile Include="Config\BrewReviewContext.cs" />
-    <Compile Include="Breweries\RequestBreweriesInvoker.cs" />
     <Compile Include="Global\SimpleWebClient.cs" />
     <Compile Include="Global\ViewModelInvokerArgs.cs" />
-    <Compile Include="Breweries\BreweryDetailsViewModel.cs" />
-    <Compile Include="Breweries\BreweryDetailsView.cs" />
-    <Compile Include="Breweries\BreweryDetailsHeader.cs" />
+    <Compile Include="Breweries\List\BreweriesListView.cs" />
+    <Compile Include="Breweries\List\BreweriesListViewModel.cs" />
+    <Compile Include="Breweries\List\GetBreweriesCommand.cs" />
+    <Compile Include="Breweries\List\GetBreweriesWebService.cs" />
+    <Compile Include="Breweries\List\RequestBreweriesInvoker.cs" />
+    <Compile Include="Breweries\Detail\BreweryDetailsHeader.cs" />
+    <Compile Include="Breweries\Detail\BreweryDetailsView.cs" />
+    <Compile Include="Breweries\Detail\BreweryDetailsViewModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="packages/Xamarin.Forms.1.0.6197/build/portable-win+net45+wp80+MonoAndroid10+MonoTouch10/Xamarin.Forms.targets" />
@@ -84,6 +84,8 @@
     <Folder Include="Beers\" />
     <Folder Include="Global\" />
     <Folder Include="Config\" />
+    <Folder Include="Breweries\List\" />
+    <Folder Include="Breweries\Detail\" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using Newtonsoft.Json.Linq;
 
-namespace STLBrewReview.Mobile.Breweries
+namespace STLBrewReview.Mobile.Breweries.Detail
 {
 	public class BreweryDetailsHeader:AbsoluteLayout
 	{

@@ -2,7 +2,7 @@
 using STLBrewReview.Mobile.Global;
 using System.Collections.ObjectModel;
 
-namespace STLBrewReview.Mobile.Breweries
+namespace STLBrewReview.Mobile.Breweries.List
 {
 	public class BreweriesListViewModel:BaseViewModel
 	{

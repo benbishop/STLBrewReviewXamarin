@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using STLBrewReview.Mobile.Global;
 
 
-namespace STLBrewReview.Mobile.Breweries
+namespace STLBrewReview.Mobile.Breweries.List
 {
 	public class GetBreweriesCommand:Command
 	{

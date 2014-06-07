@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using STLBrewReview.Mobile.Global;
 using Newtonsoft.Json;
 
-namespace STLBrewReview.Mobile.Breweries
+namespace STLBrewReview.Mobile.Breweries.List
 {
 	public class GetBreweriesWebService:BaseWebService, IGetBreweriesWebService
 	{
