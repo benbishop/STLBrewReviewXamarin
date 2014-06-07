@@ -42,7 +42,8 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 				BackgroundColor = Color.White,
 				VerticalOptions = LayoutOptions.FillAndExpand,
 				Spacing = 0,
-				Children = { 
+				Children = {
+
 					new BreweryDetailsHeader (VM.LogoURL, VM.Address),
 
 					new StackLayout {
