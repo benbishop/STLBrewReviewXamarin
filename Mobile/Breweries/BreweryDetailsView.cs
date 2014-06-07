@@ -20,46 +20,11 @@ namespace STLBrewReview.Mobile.Breweries
 			BuildUI (brewery);
 		}
 
-		protected async void BuildUI (Brewery brewery)
+		protected void BuildUI (Brewery brewery)
 		{
-			var LogoSource = new UriImageSource () {
-				Uri = new Uri (VM.LogoURI, UriKind.Absolute)
-			};
-
-			var breweryLocation = await GetGPSCoordinates (brewery.address);
-			var mapStartLocation = new Position (breweryLocation.Latitude, breweryLocation.Longitude - .005);
-			var map = new Map (new MapSpan (mapStartLocation, .01, .01)) {
-				HeightRequest = 100,
-				WidthRequest = this.Width,
-				IsShowingUser = true,
-				HasScrollEnabled = false,
-				HasZoomEnabled = false
-
-			};
-
-			var Heading = new AbsoluteLayout () {
-				VerticalOptions = LayoutOptions.StartAndExpand,
-				HorizontalOptions = LayoutOptions.FillAndExpand,
-				HeightRequest = 100,
-				Children = {
-					map,
-					new StackLayout {
-						Padding = 10,
-						Children = {
-							new Image () {
-								VerticalOptions = LayoutOptions.Start,
-								WidthRequest = 80,
-								HeightRequest = 80,
-								Source = LogoSource
-							}
-						}
-					},
-
-				}
-			};
 
 
-
+			var Heading = new BreweryDetailsHeader (brewery.image_url, brewery.address);
 
 			var beersListView = new ListView {
 				VerticalOptions = LayoutOptions.FillAndExpand,
@@ -75,22 +40,13 @@ namespace STLBrewReview.Mobile.Breweries
 
 			contactListView.ItemsSource = new List<string> (){ "Website", "Map", "Phone", "Facebook", "Twitter" };
 
-
-
-
-
-			map.Pins.Add (new Pin () {
-				Position = breweryLocation,
-				Label = brewery.name
-
-			});
-
 			Content = new StackLayout {
 
 				BackgroundColor = Color.White,
 				VerticalOptions = LayoutOptions.StartAndExpand,
 				Children = { 
-					Heading, 
+					Heading
+					, 
 					new StackLayout {
 						Padding = 10,
 						Children = {
@@ -111,19 +67,7 @@ namespace STLBrewReview.Mobile.Breweries
 			};
 		}
 
-		protected async Task<Position> GetGPSCoordinates (string address)
-		{
-			return await Task.Run (async () => {
-				var client = new HttpClient ();
-				var response = await client.GetStringAsync ("https://maps.googleapis.com/maps/api/geocode/json?address=" + address + " Saint Louis &key=AIzaSyDoyLKmSzfzfg1tQxO07282eLNAHuFSh5s");
-				var results = JObject.Parse (response) ["results"] as JArray;
-				var result = results [0];
-				var geometry = result ["geometry"];
-				var location = geometry ["location"];
 
-				return new Position ((double)location ["lat"], (double)location ["lng"]);
-			});
-		}
 	}
 }
 
