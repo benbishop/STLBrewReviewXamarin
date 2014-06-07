@@ -25,35 +25,31 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 		{
 
 
-			var Heading = new BreweryDetailsHeader (VM.LogoURL, VM.Address);
+
 
 			var beersListView = new ListView {
-				VerticalOptions = LayoutOptions.FillAndExpand,
-				RowHeight = 40
+				VerticalOptions = LayoutOptions.StartAndExpand,
+				RowHeight = 40,
+
 			};
 
 			beersListView.ItemsSource = new List<string> (){ "Beers" };
 
-			var contactListView = new ListView {
-				VerticalOptions = LayoutOptions.FillAndExpand,
-				RowHeight = 40
-			};
 
-			contactListView.ItemsSource = new List<string> (){ "Website", "Map", "Phone", "Facebook", "Twitter" };
 
 			Content = new StackLayout {
 
 				BackgroundColor = Color.White,
-				VerticalOptions = LayoutOptions.StartAndExpand,
+				VerticalOptions = LayoutOptions.FillAndExpand,
+				Spacing = 0,
 				Children = { 
-					Heading
-					, 
+					new BreweryDetailsHeader (VM.LogoURL, VM.Address),
+
 					new StackLayout {
 						Padding = 10,
+						VerticalOptions = LayoutOptions.Start,
 						Children = {
 							new Label {
-								BackgroundColor = Color.White,
-								VerticalOptions = LayoutOptions.StartAndExpand,
 								Text = VM.Description,
 								LineBreakMode = LineBreakMode.WordWrap,
 								Font = Font.BoldSystemFontOfSize (10)
@@ -61,8 +57,8 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 						}
 					},
 
-					beersListView, 
-					contactListView
+					beersListView,
+					new ActionsMenu ()
 				}
 
 			};

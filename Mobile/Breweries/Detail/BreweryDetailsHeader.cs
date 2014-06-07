@@ -38,7 +38,7 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 
 			});
 
-			VerticalOptions = LayoutOptions.StartAndExpand;
+			VerticalOptions = LayoutOptions.Start;
 			HorizontalOptions = LayoutOptions.FillAndExpand;
 			MinimumHeightRequest = 100;
 			HeightRequest = 100;
