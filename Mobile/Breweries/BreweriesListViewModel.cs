@@ -15,9 +15,6 @@ namespace STLBrewReview.Mobile.Breweries
 
 		private ObservableCollection<Brewery> breweries = new ObservableCollection<Brewery> ();
 
-		/// <summary>
-		/// gets or sets the feed items
-		/// </summary>
 		public virtual ObservableCollection<Brewery> Breweries {
 			get { return breweries; }
 			set {

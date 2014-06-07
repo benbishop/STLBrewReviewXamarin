@@ -16,6 +16,7 @@ namespace STLBrewReview.Mobile.Breweries
 			var listView = new ListView {
 				RowHeight = 40,
 				ItemTemplate = new DataTemplate (typeof(TextCell))
+
 			};
 
 			listView.SetBinding (ListView.IsVisibleProperty, new Binding (BaseViewModel.ReadyPropertyName));
@@ -23,9 +24,12 @@ namespace STLBrewReview.Mobile.Breweries
 			listView.ItemTemplate.SetBinding (TextCell.TextProperty, new Binding ("name"));
 
 
-
+			listView.ItemTapped += (object sender, ItemTappedEventArgs e) => {
+				Navigation.PushAsync (new BreweryDetailsView (e.Item as Brewery));
+			};
 
 			Content = new StackLayout {
+				BackgroundColor = Color.White,
 				VerticalOptions = LayoutOptions.FillAndExpand,
 				Children = { listView }
 			};

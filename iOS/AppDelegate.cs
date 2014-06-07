@@ -7,6 +7,7 @@ using MonoTouch.UIKit;
 
 using Xamarin.Forms;
 using STLBrewReview.Mobile;
+using Xamarin;
 
 namespace STLBrewReviewMobile.iOS
 {
@@ -22,8 +23,8 @@ namespace STLBrewReviewMobile.iOS
 			});
 
 			UIApplication.SharedApplication.SetStatusBarStyle (UIStatusBarStyle.LightContent, false);
-
 			Forms.Init ();
+			FormsMaps.Init ();
 
 			window = new UIWindow (UIScreen.MainScreen.Bounds);
 			

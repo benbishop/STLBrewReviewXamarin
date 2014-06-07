@@ -4,11 +4,11 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{B49D5A05-6120-47CE-A6DE-01D1ED9C4AF3}</ProjectGuid>
+    <ProjectGuid>{719271A3-4A60-48C7-8A8A-3495B8D524A0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>MonkeyArms</RootNamespace>
     <AssemblyName>MonkeyArms</AssemblyName>
-    <TargetFrameworkProfile>Profile5</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Profile24</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

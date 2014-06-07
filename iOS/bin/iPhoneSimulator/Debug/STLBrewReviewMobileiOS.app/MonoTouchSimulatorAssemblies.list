@@ -10,7 +10,6 @@ System.ComponentModel.Composition.dll
 System.ObjectModel.dll
 System.Collections.dll
 System.Threading.Tasks.dll
-System.Runtime.Extensions.dll
 System.Linq.Expressions.dll
 System.Dynamic.Runtime.dll
 System.Reflection.dll
@@ -18,10 +17,14 @@ System.Globalization.dll
 System.IO.dll
 System.Threading.dll
 System.ComponentModel.dll
+System.Runtime.Extensions.dll
 System.Reflection.Extensions.dll
 System.Linq.dll
 System.Diagnostics.Debug.dll
 System.Net.Http.dll
+Xamarin.Forms.Maps.iOS.dll
+Xamarin.Forms.Maps.dll
+System.Resources.ResourceManager.dll
 STLBrewReviewMobile.dll
 System.Runtime.Serialization.Primitives.dll
 System.Runtime.Serialization.dll
