@@ -12,7 +12,7 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 {
 	public class BreweryDetailsView:BaseView
 	{
-		BreweryDetailsViewModel VM;
+		protected readonly BreweryDetailsViewModel VM;
 
 		public BreweryDetailsView (BreweryDetailsViewModel vm)
 		{

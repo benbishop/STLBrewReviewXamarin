@@ -14,7 +14,7 @@ namespace STLBrewReview.Mobile
 
 
 
-			var navigationPage = new NavigationPage (new BreweriesListView ()) {
+			var navigationPage = new NavigationPage (new BreweriesListView (new BreweriesListViewModel ())) {
 				Tint = Color.Black
 			};
 

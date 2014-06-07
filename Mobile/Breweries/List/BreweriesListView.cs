@@ -8,31 +8,33 @@ namespace STLBrewReview.Mobile.Breweries.List
 {
 	public class BreweriesListView:BaseView
 	{
-		BreweriesListViewModel VM;
+		protected readonly BreweriesListViewModel VM;
 
-		public BreweriesListView ()
+		public BreweriesListView (BreweriesListViewModel vm)
 		{
-			BindingContext = VM = DI.Get<BreweriesListViewModel> ();
+			BindingContext = VM = vm;
+			BuildUI ();
 
+		}
+
+		void BuildUI ()
+		{
 			var listView = new ListView {
 				RowHeight = 40,
 				ItemTemplate = new DataTemplate (typeof(TextCell))
-
 			};
-
 			listView.SetBinding (ListView.IsVisibleProperty, new Binding (BaseViewModel.ReadyPropertyName));
 			listView.SetBinding (ListView.ItemsSourceProperty, new Binding (BreweriesListViewModel.BreweriesPropName));
 			listView.ItemTemplate.SetBinding (TextCell.TextProperty, new Binding ("name"));
-
-
 			listView.ItemTapped += (object sender, ItemTappedEventArgs e) => {
 				Navigation.PushAsync (new BreweryDetailsView (new BreweryDetailsViewModel (e.Item as Brewery)));
 			};
-
 			Content = new StackLayout {
 				BackgroundColor = Color.White,
 				VerticalOptions = LayoutOptions.FillAndExpand,
-				Children = { listView }
+				Children = {
+					listView
+				}
 			};
 		}
 
