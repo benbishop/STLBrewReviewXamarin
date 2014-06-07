@@ -21,6 +21,18 @@ namespace STLBrewReviewTest
 			ViewModelUT.Title.ShouldEqual (TestBrewery.name);
 		}
 
+		[Test]
+		public void Verify_LogoURL_Set ()
+		{
+			ViewModelUT.LogoURL.ShouldEqual (TestBrewery.image_url);
+		}
+
+		[Test]
+		public void Verify_Address_Set ()
+		{
+			ViewModelUT.Address.ShouldEqual (TestBrewery.address);
+		}
+
 		[SetUp]
 		public void Init ()
 		{
