@@ -36,10 +36,10 @@
     <Reference Include="FakeItEasy">
       <HintPath>..\packages\FakeItEasy.1.21.0\lib\net40\FakeItEasy.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft">
+    <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Ploeh">
+    <Reference Include="Ploeh.AutoFixture">
       <HintPath>..\packages\AutoFixture.3.18.10\lib\net40\Ploeh.AutoFixture.dll</HintPath>
     </Reference>
   </ItemGroup>
@@ -48,6 +48,10 @@
     <ProjectReference Include="..\Mobile\STLBrewReviewMobile.csproj">
       <Project>{7B3A6205-27DB-48B2-8576-D5C4A46070D2}</Project>
       <Name>STLBrewReviewMobile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MonkeyArms\MonkeyArms.csproj">
+      <Project>{719271A3-4A60-48C7-8A8A-3495B8D524A0}</Project>
+      <Name>MonkeyArms</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

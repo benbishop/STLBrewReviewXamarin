@@ -1,8 +1,9 @@
 ﻿using NUnit.Framework;
 using System;
-using STLBrewReview.Mobile.Breweries;
+using STLBrewReview.Mobile.Breweries.Detail;
 using Ploeh.AutoFixture;
 using Should;
+using STLBrewReview.Mobile.Breweries;
 
 namespace STLBrewReviewTest
 {

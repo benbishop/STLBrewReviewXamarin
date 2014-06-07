@@ -6,7 +6,7 @@ namespace STLBrewReviewTest
 {
 	public static class Models
 	{
-		private static Fixture Fixture;
+		private static Fixture Fixture = new Fixture ();
 
 		public static Brewery Brewery (string name = null)
 		{

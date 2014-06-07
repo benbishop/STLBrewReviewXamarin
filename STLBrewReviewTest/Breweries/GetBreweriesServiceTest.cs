@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 using System;
-using STLBrewReview.Mobile.Breweries;
+using STLBrewReview.Mobile.Breweries.List;
 using FakeItEasy;
 using STLBrewReview.Mobile.Global;
 using System.Net;

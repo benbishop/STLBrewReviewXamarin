@@ -26,7 +26,7 @@ namespace STLBrewReview.Mobile.Breweries.List
 
 
 			listView.ItemTapped += (object sender, ItemTappedEventArgs e) => {
-				Navigation.PushAsync (new BreweryDetailsView (e.Item as Brewery));
+				Navigation.PushAsync (new BreweryDetailsView (new BreweryDetailsViewModel (e.Item as Brewery)));
 			};
 
 			Content = new StackLayout {

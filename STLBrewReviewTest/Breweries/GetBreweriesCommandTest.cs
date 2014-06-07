@@ -1,11 +1,12 @@
 ﻿using NUnit.Framework;
 using System;
 using System.Collections.Generic;
-using STLBrewReview.Mobile.Breweries;
+using STLBrewReview.Mobile.Breweries.List;
 using FakeItEasy;
 using Should;
 using MonkeyArms;
 using STLBrewReview.Mobile.Global;
+using STLBrewReview.Mobile.Breweries;
 
 namespace STLBrewReviewTest
 {
