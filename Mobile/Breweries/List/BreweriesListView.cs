@@ -21,7 +21,7 @@ namespace STLBrewReview.Mobile.Breweries.List
 		{
 			var listView = new ListView {
 				RowHeight = 40,
-				ItemTemplate = new DataTemplate (typeof(TextCell))
+				ItemTemplate = new DataTemplate (typeof(BrewReviewTextCell))
 			};
 			listView.SetBinding (ListView.IsVisibleProperty, new Binding (BaseViewModel.ReadyPropertyName));
 			listView.SetBinding (ListView.ItemsSourceProperty, new Binding (BreweriesListViewModel.BreweriesPropName));
