@@ -13,7 +13,7 @@ using STLBrewReview.Mobile;
 
 namespace STLBrewReviewMobile.Android
 {
-	[Activity (Label = "STLBrewReviewMobile.Android.Android", MainLauncher = true)]
+	[Activity (Label = "STLBrewReviewMobile.Android.Android", MainLauncher = true, ScreenOrientation = global::Android.Content.PM.ScreenOrientation.Portrait)]
 	public class MainActivity : AndroidActivity
 	{
 		protected override void OnCreate (Bundle bundle)
