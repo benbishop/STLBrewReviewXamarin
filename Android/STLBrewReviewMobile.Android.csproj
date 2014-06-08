@@ -75,6 +75,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BrewReviewTextCellRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -111,6 +112,7 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\phone.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\twitter.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\website.png" />
+    <AndroidResource Include="Resources\layout\TextCell.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <Import Project="../packages/Xamarin.Forms.1.0.6197/build/portable-win+net45+wp80+MonoAndroid10+MonoTouch10/Xamarin.Forms.targets" />
@@ -129,5 +131,6 @@
     <Folder Include="Resources\drawable-mdpi\" />
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Views\" />
   </ItemGroup>
 </Project>

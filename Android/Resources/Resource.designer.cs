@@ -1240,6 +1240,9 @@ namespace STLBrewReviewMobile.Android
 			// aapt resource value: 0x7f06002e
 			public const int title = 2131099694;
 			
+			// aapt resource value: 0x7f060045
+			public const int titleTextView = 2131099717;
+			
 			// aapt resource value: 0x7f060023
 			public const int top_action_bar = 2131099683;
 			
@@ -1367,6 +1370,9 @@ namespace STLBrewReviewMobile.Android
 			
 			// aapt resource value: 0x7f03001b
 			public const int support_simple_spinner_dropdown_item = 2130903067;
+			
+			// aapt resource value: 0x7f03001c
+			public const int TextCell = 2130903068;
 			
 			static Layout()
 			{
