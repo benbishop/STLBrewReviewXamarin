@@ -21,6 +21,8 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 			BuildUI ();
 		}
 
+
+
 		protected void BuildUI ()
 		{
 
