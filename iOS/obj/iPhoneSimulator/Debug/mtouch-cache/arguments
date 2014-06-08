@@ -22,6 +22,8 @@
 	-r \
 	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
 	-r \
+	/Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/packages/Xamarin.Forms.Maps.1.0.6197/lib/MonoTouch10/Xamarin.Forms.Maps.dll \
+	-r \
 	/Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/packages/Xamarin.Forms.1.0.6197/lib/MonoTouch10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
 	/Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/packages/Xamarin.Forms.1.0.6197/lib/MonoTouch10/Xamarin.Forms.Core.dll \
@@ -29,8 +31,6 @@
 	/Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/packages/Xamarin.Forms.1.0.6197/lib/MonoTouch10/Xamarin.Forms.Xaml.dll \
 	-r \
 	/Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/packages/Xamarin.Forms.Maps.1.0.6197/lib/MonoTouch10/Xamarin.Forms.Maps.iOS.dll \
-	-r \
-	/Users/bishopben/Documents/Work/rendr/BrewReview/STLBrewReviewMobile/packages/Xamarin.Forms.Maps.1.0.6197/lib/MonoTouch10/Xamarin.Forms.Maps.dll \
 	-debug \
 	-nolink \
 	-sdk \
