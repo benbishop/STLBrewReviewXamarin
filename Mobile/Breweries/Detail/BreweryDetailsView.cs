@@ -12,6 +12,18 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 {
 	public class BreweryDetailsView:BaseView
 	{
+		public Action<string> MakePhoneCall = delegate {
+		};
+
+		public Action<string> OpenEmail = delegate {
+		};
+
+		public Action<string> LaunchMapApp = delegate {
+
+		};
+
+
+
 		protected readonly BreweryDetailsViewModel VM;
 
 		public BreweryDetailsView (BreweryDetailsViewModel vm)
@@ -39,6 +51,12 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 
 
 
+			var actionsMenu = new ActionsMenu (VM.Actions);
+			actionsMenu.ActionTapped += (action) => {
+				ResolveActionTap (action);
+			};
+
+
 			Content = new StackLayout {
 
 				BackgroundColor = Color.White,
@@ -61,10 +79,36 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 					},
 
 					beersListView,
-					new ActionsMenu (VM.Actions)
+					actionsMenu
 				}
 
 			};
+		}
+
+
+		protected void ResolveActionTap (string action)
+		{
+			switch (action) {
+			case BreweryDetailsViewModel.ACTIONPHONE:
+				MakePhoneCall (VM.PhoneNumberURL);
+				break;
+			case BreweryDetailsViewModel.ACTIONEMAIL:
+				OpenEmail (VM.Email);
+				break;
+			case BreweryDetailsViewModel.ACTIONMAP:
+				LaunchMapApp (VM.Address);
+				break;
+
+			case BreweryDetailsViewModel.ACTIONFACEBOOK:
+				this.Navigation.PushAsync (new WebsiteView (VM.FacebookURL, "Facebook"));
+				break;
+			case BreweryDetailsViewModel.ACTIONTWITTER:
+				this.Navigation.PushAsync (new WebsiteView (VM.TwitterURL, "Twitter"));
+				break;
+			case BreweryDetailsViewModel.ACTIONWEBSITE:
+				this.Navigation.PushAsync (new WebsiteView (VM.WebsiteURL, "Website"));
+				break;
+			}
 		}
 
 

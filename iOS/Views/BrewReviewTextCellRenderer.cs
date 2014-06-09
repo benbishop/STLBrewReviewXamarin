@@ -4,9 +4,10 @@ using Xamarin.Forms.Platform.iOS;
 using MonoTouch.UIKit;
 using STLBrewReviewMobile.iOS;
 using STLBrewReview.Mobile.Global;
+using STLBrewReviewMobile.iOS.Views;
 
 [assembly: ExportRenderer (typeof(BrewReviewTextCell), typeof(BrewReviewTextCellRenderer))]
-namespace STLBrewReviewMobile.iOS
+namespace STLBrewReviewMobile.iOS.Views
 {
 
 	public class BrewReviewTextCellRenderer:TextCellRenderer

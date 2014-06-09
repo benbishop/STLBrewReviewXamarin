@@ -65,7 +65,7 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 		{
 			return await Task.Run (async () => {
 				var client = new HttpClient ();
-				var response = await client.GetStringAsync ("https://maps.googleapis.com/maps/api/geocode/json?address=" + address + " Saint Louis &key=AIzaSyDoyLKmSzfzfg1tQxO07282eLNAHuFSh5s");
+				var response = await client.GetStringAsync ("https://maps.googleapis.com/maps/api/geocode/json?address=" + address + "&key=AIzaSyDoyLKmSzfzfg1tQxO07282eLNAHuFSh5s");
 				var results = JObject.Parse (response) ["results"] as JArray;
 				var result = results [0];
 				var geometry = result ["geometry"];

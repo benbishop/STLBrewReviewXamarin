@@ -19,7 +19,14 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 			this.Title = brewery.name;
 			this.Description = brewery.description;
 			this.LogoURL = brewery.image_url;
-			this.Address = brewery.address;
+			this.Address = brewery.address + " Saint Louis ";
+			this.WebsiteURL = brewery.website_url;
+			this.PhoneNumberURL = "tel:" + brewery.phone;
+			this.Email = brewery.email;
+			this.TwitterURL = "http://www.twitter.com/" + brewery.twitter_handle;
+			this.FacebookURL = brewery.facebook_url;
+
+
 			InitActions (brewery);
 		}
 
@@ -62,6 +69,31 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 		public string Description {
 			private set;
 			get;
+		}
+
+		public string WebsiteURL {
+			get;
+			private set;
+		}
+
+		public string TwitterURL {
+			get;
+			private set;
+		}
+
+		public string FacebookURL {
+			get;
+			private set;
+		}
+
+		public string PhoneNumberURL {
+			get;
+			private set;
+		}
+
+		public string Email {
+			get;
+			private set;
 		}
 	}
 }
