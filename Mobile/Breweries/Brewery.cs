@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
+using STLBrewReview.Mobile.Beers;
+using System.Collections.Generic;
 
 namespace STLBrewReview.Mobile.Breweries
 {
@@ -41,6 +43,9 @@ namespace STLBrewReview.Mobile.Breweries
 
 		[DataMember (Name = "created_at")] 
 		public DateTime created_at{ get; set; }
+
+		[DataMember (Name = "beers")] 
+		public List<Beer> beers{ get; set; }
 
 		//		[DataMember (Name = "image_left")]
 		//		public int image_left{ get; set; }

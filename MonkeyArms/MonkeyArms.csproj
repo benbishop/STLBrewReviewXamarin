@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>MonkeyArms</RootNamespace>
     <AssemblyName>MonkeyArms</AssemblyName>
-    <TargetFrameworkProfile>Profile24</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Profile37</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

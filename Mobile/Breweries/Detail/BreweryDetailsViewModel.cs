@@ -2,11 +2,15 @@
 using STLBrewReview.Mobile.Global;
 using Xamarin.Forms;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using STLBrewReview.Mobile.Beers;
 
 namespace STLBrewReview.Mobile.Breweries.Detail
 {
 	public class BreweryDetailsViewModel:BaseViewModel
 	{
+		public const string BeersPropName = "Beers";
+
 		public const string ACTIONPHONE = "phone";
 		public const string ACTIONEMAIL = "email";
 		public const string ACTIONWEBSITE = "website";
@@ -25,7 +29,7 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 			this.Email = brewery.email;
 			this.TwitterURL = "http://www.twitter.com/" + brewery.twitter_handle;
 			this.FacebookURL = brewery.facebook_url;
-
+			this.BreweryShortname = brewery.short_name;
 
 			InitActions (brewery);
 		}
@@ -49,6 +53,16 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 
 		}
 
+		private ObservableCollection<Beer> beers = new ObservableCollection<Beer> ();
+
+		public virtual ObservableCollection<Beer> Beers {
+			get { return beers; }
+			set {
+				beers = value;
+				OnPropertyChanged (BeersPropName);
+			}
+		}
+
 		public List<string> Actions {
 			private set;
 			get;
@@ -64,6 +78,10 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 			get;
 		}
 
+		public string BreweryShortname {
+			private set;
+			get;
+		}
 
 
 		public string Description {

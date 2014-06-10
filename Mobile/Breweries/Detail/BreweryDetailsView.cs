@@ -2,11 +2,13 @@
 using STLBrewReview.Mobile.Global;
 using Xamarin.Forms;
 using System.Collections.Generic;
+using MonkeyArms;
 using Xamarin.Forms.Maps;
 using System.Net.Http;
 using Newtonsoft.Json.Linq;
 using System.Threading.Tasks;
 using System.ServiceModel.Channels;
+using STLBrewReview.Mobile.Beers;
 
 namespace STLBrewReview.Mobile.Breweries.Detail
 {
@@ -42,12 +44,13 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 
 
 			var beersListView = new ListView {
-				VerticalOptions = LayoutOptions.StartAndExpand,
 				RowHeight = 40,
-
+				ItemTemplate = new DataTemplate (typeof(ImageCell))
 			};
 
-			beersListView.ItemsSource = new List<string> (){ "Beers" };
+			beersListView.SetBinding (ListView.ItemsSourceProperty, new Xamarin.Forms.Binding (BreweryDetailsViewModel.BeersPropName));
+			beersListView.ItemTemplate.SetBinding (ImageCell.TextProperty, new Xamarin.Forms.Binding ("name"));
+			beersListView.ItemTemplate.SetBinding (ImageCell.ImageSourceProperty, new Xamarin.Forms.Binding ("image_url"));
 
 
 
@@ -111,6 +114,11 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 			}
 		}
 
+		protected override void OnAppearing ()
+		{
+			base.OnAppearing ();
+			DI.Get<RequestBeersInvoker> ().Invoke (new ViewModelInvokerArgs (VM));
+		}
 
 	}
 }

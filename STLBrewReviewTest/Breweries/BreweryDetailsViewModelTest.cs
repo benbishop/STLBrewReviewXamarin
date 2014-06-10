@@ -30,7 +30,7 @@ namespace STLBrewReviewTest
 		[Test]
 		public void Verify_Address_Set ()
 		{
-			ViewModelUT.Address.ShouldEqual (TestBrewery.address);
+			ViewModelUT.Address.ShouldEqual (TestBrewery.address + " Saint Louis ");
 		}
 
 		[Test]

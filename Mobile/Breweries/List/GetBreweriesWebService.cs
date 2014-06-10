@@ -22,7 +22,7 @@ namespace STLBrewReview.Mobile.Breweries.List
 		{
 			WebClient.ResponseReceived += (object sender, EventArgs e) => {
 				string jsonText = (e as WebClientResultEventArgs).Response;
-				List<Brewery> breweries = JsonConvert.DeserializeObject<List<Brewery>> (jsonText);
+				List<Brewery> breweries = JsonConvert.DeserializeObject<List<Brewery>> (jsonText, new JsonSerializerSettings (){ NullValueHandling = NullValueHandling.Ignore });
 				BreweriesReceived (this, new BreweriesReceivedEventArgs (breweries));
 			};
 			WebClient.Get (serviceURLRoot + "breweries.json");
