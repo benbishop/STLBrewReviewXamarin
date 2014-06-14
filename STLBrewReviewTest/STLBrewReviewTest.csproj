@@ -68,6 +68,7 @@
     <Compile Include="Breweries\BreweryDetailsViewModelTest.cs" />
     <Compile Include="Mock\Models.cs" />
     <Compile Include="Beers\GetBeerServiceTest.cs" />
+    <Compile Include="Beers\BeerDetailsViewModelTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

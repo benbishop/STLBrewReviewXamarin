@@ -13,6 +13,8 @@ namespace STLBrewReview.Mobile.Breweries.List
 		public BreweriesListView (BreweriesListViewModel vm)
 		{
 			BindingContext = VM = vm;
+
+
 			BuildUI ();
 
 		}

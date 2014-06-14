@@ -51,7 +51,9 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 			beersListView.SetBinding (ListView.ItemsSourceProperty, new Xamarin.Forms.Binding (BreweryDetailsViewModel.BeersPropName));
 			beersListView.ItemTemplate.SetBinding (ImageCell.TextProperty, new Xamarin.Forms.Binding ("name"));
 			beersListView.ItemTemplate.SetBinding (ImageCell.ImageSourceProperty, new Xamarin.Forms.Binding ("image_url"));
-
+			beersListView.ItemTapped += (object sender, ItemTappedEventArgs e) => {
+				Navigation.PushAsync (new BeerDetailsView (new BeerDetailsViewModel (e.Item as Beer)));
+			};
 
 
 			var actionsMenu = new ActionsMenu (VM.Actions);
@@ -79,6 +81,7 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 								Font = Font.BoldSystemFontOfSize (10)
 							}
 						}
+
 					},
 
 					beersListView,

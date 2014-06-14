@@ -4,6 +4,7 @@ using STLBrewReview.Mobile.Breweries.Detail;
 using Ploeh.AutoFixture;
 using Should;
 using STLBrewReview.Mobile.Breweries;
+using System.ComponentModel;
 
 namespace STLBrewReviewTest
 {
@@ -16,21 +17,35 @@ namespace STLBrewReviewTest
 		BreweryDetailsViewModel ViewModelUT;
 
 		[Test]
-		public void Verify_Title_Set ()
+		public void Verify_Props_Set ()
 		{
-			ViewModelUT.Title.ShouldEqual (TestBrewery.name);
+			VerifyPropSet ("Title", "name");
+			VerifyPropSet ("LogoURL", "image_url");
+			VerifyPropSet ("Description", "description");
+			VerifyPropSet ("WebsiteURL", "website_url");
+			VerifyPropSet ("Email", "email");
+			VerifyPropSet ("FacebookURL", "facebook_url");
+			VerifyPropSet ("BreweryShortname", "short_name");
 		}
 
-		[Test]
-		public void Verify_LogoURL_Set ()
-		{
-			ViewModelUT.LogoURL.ShouldEqual (TestBrewery.image_url);
-		}
+
 
 		[Test]
 		public void Verify_Address_Set ()
 		{
 			ViewModelUT.Address.ShouldEqual (TestBrewery.address + " Saint Louis ");
+		}
+
+		[Test]
+		public void Verify_Phone_Number_Set ()
+		{
+			ViewModelUT.PhoneNumberURL.ShouldEqual ("tel:" + TestBrewery.phone);
+		}
+
+		[Test]
+		public void Verify_Twitter_Set ()
+		{
+			ViewModelUT.TwitterURL.ShouldEqual ("http://www.twitter.com/" + TestBrewery.twitter_handle);
 		}
 
 		[Test]
@@ -42,6 +57,13 @@ namespace STLBrewReviewTest
 			VerifyActionInclusion (BreweryDetailsViewModel.ACTIONFACEBOOK, "facebook_url");
 			VerifyActionInclusion (BreweryDetailsViewModel.ACTIONTWITTER, "twitter_handle");
 			VerifyActionInclusion (BreweryDetailsViewModel.ACTIONWEBSITE, "website_url");
+		}
+
+		protected void VerifyPropSet (string vmPropName, string breweryPropName)
+		{
+			Brewery brewery = Models.Brewery ();
+			BreweryDetailsViewModel vmUT = new BreweryDetailsViewModel (brewery);
+			vmUT.GetType ().GetProperty (vmPropName).GetValue (vmUT).ShouldEqual (brewery.GetType ().GetProperty (breweryPropName).GetValue (brewery));
 		}
 
 		protected void VerifyActionInclusion (string action, string propName)

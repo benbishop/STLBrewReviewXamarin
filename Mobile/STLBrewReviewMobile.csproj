@@ -56,6 +56,9 @@
     <Compile Include="Beers\GetBeersWebService.cs" />
     <Compile Include="Beers\RequestBeersInvoker.cs" />
     <Compile Include="Beers\GetBeersCommand.cs" />
+    <Compile Include="Beers\BeerCell.cs" />
+    <Compile Include="Beers\BeerDetailsViewModel.cs" />
+    <Compile Include="Beers\BeerDetailsView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="packages/Xamarin.Forms.1.0.6197/build/portable-win+net45+wp80+MonoAndroid10+MonoTouch10/Xamarin.Forms.targets" />
