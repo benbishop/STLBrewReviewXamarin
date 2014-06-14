@@ -6,7 +6,7 @@ using Android.App;
 using Android.Widget;
 
 
-[assembly: ExportRenderer (typeof(BrewReviewTextCell), typeof(BrewReviewTextCellRenderer))]
+[assembly: ExportRenderer (typeof(TextCell), typeof(BrewReviewTextCellRenderer))]
 namespace STLBrewReviewMobile.Android
 {
 	public class BrewReviewTextCellRenderer:TextCellRenderer

@@ -45,7 +45,7 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 
 			var beersListView = new ListView {
 				RowHeight = 40,
-				ItemTemplate = new DataTemplate (typeof(ImageCell))
+				ItemTemplate = new DataTemplate (typeof(BeerCell))
 			};
 
 			beersListView.SetBinding (ListView.ItemsSourceProperty, new Xamarin.Forms.Binding (BreweryDetailsViewModel.BeersPropName));

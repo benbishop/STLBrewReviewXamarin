@@ -13,9 +13,11 @@ namespace STLBrewReview.Mobile.Beers
 
 		protected override void OnBindingContextChanged ()
 		{
+
 			var URIImageSource = (UriImageSource)ImageSource;
 			URIImageSource.CachingEnabled = true;
 			base.OnBindingContextChanged ();
+
 		}
 	}
 }

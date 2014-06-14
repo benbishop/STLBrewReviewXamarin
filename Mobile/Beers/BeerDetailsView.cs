@@ -22,6 +22,7 @@ namespace STLBrewReview.Mobile.Beers
 			};
 			var attributesBox = new Frame {
 				VerticalOptions = LayoutOptions.Center,
+				BackgroundColor = Color.White,
 				Padding = new Thickness (15, 5, 10, 5),
 				Content = new StackLayout {
 					Orientation = StackOrientation.Horizontal,
@@ -36,6 +37,7 @@ namespace STLBrewReview.Mobile.Beers
 				(attributesBox.Content as StackLayout).Children.Add (
 					new Label () {
 						Text = Attribute,
+						TextColor = Color.Black,
 						Font = Font.BoldSystemFontOfSize (10),
 						BackgroundColor = Color.White
 					}
@@ -44,10 +46,15 @@ namespace STLBrewReview.Mobile.Beers
 
 			AbsoluteLayout header = new AbsoluteLayout {
 				HorizontalOptions = LayoutOptions.Fill,
+				VerticalOptions = LayoutOptions.Start,
+				BackgroundColor = Color.Red,
 				Children = {
 					new Image () {
+						Aspect = Aspect.Fill,
+						HeightRequest = 100,
 						Source = new FileImageSource () {
 							File = "beer_background.png"
+
 						}
 					},
 
@@ -57,6 +64,7 @@ namespace STLBrewReview.Mobile.Beers
 			header.Children.Add (attributesBox, new Point (80, 40));
 			header.Children.Add (new StackLayout {
 				Padding = 10,
+
 				Children = {
 					new Image () {
 
@@ -74,6 +82,7 @@ namespace STLBrewReview.Mobile.Beers
 
 
 			Content = new StackLayout {
+				BackgroundColor = Color.White,
 				Children = {
 					header,
 					new StackLayout {
@@ -81,6 +90,7 @@ namespace STLBrewReview.Mobile.Beers
 						VerticalOptions = LayoutOptions.Start,
 						Children = {
 							new Label {
+								TextColor = Color.Black,
 								Text = VM.Description,
 								LineBreakMode = LineBreakMode.WordWrap,
 								Font = Font.BoldSystemFontOfSize (14)
@@ -88,6 +98,7 @@ namespace STLBrewReview.Mobile.Beers
 						}
 					},
 					new ListView () {
+
 						ItemsSource = VM.Ingredients
 					}
 				}
