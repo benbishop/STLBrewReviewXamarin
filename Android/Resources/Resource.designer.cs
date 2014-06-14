@@ -1141,32 +1141,35 @@ namespace STLBrewReviewMobile.Android
 			// aapt resource value: 0x7f06002a
 			public const int image = 2131099690;
 			
+			// aapt resource value: 0x7f06003f
+			public const int imageView = 2131099711;
+			
 			// aapt resource value: 0x7f060005
 			public const int listMode = 2131099653;
 			
 			// aapt resource value: 0x7f06002c
 			public const int list_item = 2131099692;
 			
-			// aapt resource value: 0x7f060043
-			public const int media_route_control_frame = 2131099715;
+			// aapt resource value: 0x7f060045
+			public const int media_route_control_frame = 2131099717;
 			
-			// aapt resource value: 0x7f060044
-			public const int media_route_disconnect_button = 2131099716;
-			
-			// aapt resource value: 0x7f060040
-			public const int media_route_list = 2131099712;
-			
-			// aapt resource value: 0x7f060041
-			public const int media_route_volume_layout = 2131099713;
+			// aapt resource value: 0x7f060046
+			public const int media_route_disconnect_button = 2131099718;
 			
 			// aapt resource value: 0x7f060042
-			public const int media_route_volume_slider = 2131099714;
+			public const int media_route_list = 2131099714;
+			
+			// aapt resource value: 0x7f060043
+			public const int media_route_volume_layout = 2131099715;
+			
+			// aapt resource value: 0x7f060044
+			public const int media_route_volume_slider = 2131099716;
 			
 			// aapt resource value: 0x7f060015
 			public const int middle = 2131099669;
 			
-			// aapt resource value: 0x7f06003f
-			public const int myButton = 2131099711;
+			// aapt resource value: 0x7f060041
+			public const int myButton = 2131099713;
 			
 			// aapt resource value: 0x7f06000d
 			public const int never = 2131099661;
@@ -1246,8 +1249,8 @@ namespace STLBrewReviewMobile.Android
 			// aapt resource value: 0x7f06002e
 			public const int title = 2131099694;
 			
-			// aapt resource value: 0x7f060045
-			public const int titleTextView = 2131099717;
+			// aapt resource value: 0x7f060040
+			public const int titleTextView = 2131099712;
 			
 			// aapt resource value: 0x7f060023
 			public const int top_action_bar = 2131099683;
@@ -1363,22 +1366,25 @@ namespace STLBrewReviewMobile.Android
 			public const int abc_search_view = 2130903062;
 			
 			// aapt resource value: 0x7f030017
-			public const int Main = 2130903063;
+			public const int ImageCell = 2130903063;
 			
 			// aapt resource value: 0x7f030018
-			public const int mr_media_route_chooser_dialog = 2130903064;
+			public const int Main = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int mr_media_route_controller_dialog = 2130903065;
+			public const int mr_media_route_chooser_dialog = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int mr_media_route_list_item = 2130903066;
+			public const int mr_media_route_controller_dialog = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int support_simple_spinner_dropdown_item = 2130903067;
+			public const int mr_media_route_list_item = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int TextCell = 2130903068;
+			public const int support_simple_spinner_dropdown_item = 2130903068;
+			
+			// aapt resource value: 0x7f03001d
+			public const int TextCell = 2130903069;
 			
 			static Layout()
 			{

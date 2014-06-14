@@ -76,9 +76,10 @@ namespace STLBrewReview.Mobile.Breweries.Detail
 						VerticalOptions = LayoutOptions.Start,
 						Children = {
 							new Label {
+								TextColor = Color.Black,
 								Text = VM.Description,
 								LineBreakMode = LineBreakMode.WordWrap,
-								Font = Font.BoldSystemFontOfSize (10)
+								Font = Font.BoldSystemFontOfSize (12)
 							}
 						}
 

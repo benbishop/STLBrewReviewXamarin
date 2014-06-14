@@ -17,10 +17,7 @@ namespace STLBrewReviewMobile.Android
 
 		protected override global::Android.Views.View GetCellCore (Cell item, global::Android.Views.View convertView, global::Android.Views.ViewGroup parent, global::Android.Content.Context context)
 		{
-//			var view = convertView;
 
-
-//			if (view == null) // no view to re-use, create new
 			var view = (context as Activity).LayoutInflater.Inflate (Resource.Layout.TextCell, null);
 
 			view.FindViewById<TextView> (Resource.Id.titleTextView).Text = (item as TextCell).Text;
