@@ -1,0 +1,6 @@
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/obj/Debug/.NETPortable,Version=v4.0,Profile=Profile37.AssemblyAttribute.cs
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/bin/Debug/MonkeyArms.dll.mdb
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/bin/Debug/MonkeyArms.dll
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/obj/Debug/MonkeyArms.dll
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/obj/Debug/MonkeyArms.dll.mdb
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/bin/Debug/TinyIOC.dll
