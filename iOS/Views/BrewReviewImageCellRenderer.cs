@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Xamarin.Forms;
 using STLBrewReviewMobile.iOS;
 using Xamarin.Forms.Platform.iOS;
@@ -12,12 +12,13 @@ namespace STLBrewReviewMobile.iOS
 		{
 		}
 
-		public override MonoTouch.UIKit.UITableViewCell GetCell (Cell item, MonoTouch.UIKit.UITableView tv)
-		{
-			var view = base.GetCell (item, tv);
-			view.Accessory = MonoTouch.UIKit.UITableViewCellAccessory.DisclosureIndicator;
-			return view;
-		}
+        public override UIKit.UITableViewCell GetCell(Cell item, UIKit.UITableViewCell reusableCell, UIKit.UITableView tv)
+        {
+            var view = base.GetCell (item, reusableCell, tv);
+            view.Accessory = UIKit.UITableViewCellAccessory.DisclosureIndicator;
+            return view;
+        }
+
 	}
 }
 

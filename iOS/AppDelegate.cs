@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
-
-using Xamarin.Forms;
 using STLBrewReview.Mobile;
+using UIKit;
+using Foundation;
+using Xamarin.Forms;
 using Xamarin;
+
+
 
 namespace STLBrewReviewMobile.iOS
 {

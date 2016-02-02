@@ -12,12 +12,9 @@ namespace STLBrewReview.Mobile
 		{	
 			BrewReviewContext.Init ();
 
-
-
 			var navigationPage = new NavigationPage (new BreweriesListView (new BreweriesListViewModel ())) {
 				Tint = Color.Black
 			};
-
 
 			return navigationPage;
 		}

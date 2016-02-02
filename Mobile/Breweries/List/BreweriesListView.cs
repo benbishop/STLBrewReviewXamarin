@@ -14,9 +14,7 @@ namespace STLBrewReview.Mobile.Breweries.List
 		{
 			BindingContext = VM = vm;
 
-
 			BuildUI ();
-
 		}
 
 		void BuildUI ()

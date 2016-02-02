@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="iOS/STLBrewReviewMobile.iOS.csproj">
+﻿<Properties StartupItem="iOS/STLBrewReviewMobile.iOS.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MonkeyArms/MonkeyArms/DI.cs">
     <Files>

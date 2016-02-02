@@ -1,10 +1,11 @@
-﻿using System;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
-using MonoTouch.UIKit;
+
 using STLBrewReviewMobile.iOS;
 using STLBrewReview.Mobile.Global;
 using STLBrewReviewMobile.iOS.Views;
+using UIKit;
 
 [assembly: ExportRenderer (typeof(BrewReviewTextCell), typeof(BrewReviewTextCellRenderer))]
 namespace STLBrewReviewMobile.iOS.Views
@@ -16,12 +17,12 @@ namespace STLBrewReviewMobile.iOS.Views
 		{
 		}
 
-		public override UITableViewCell GetCell (Cell item, UITableView tv)
-		{
-			UITableViewCell cell = base.GetCell (item, tv);
-			cell.Accessory = UITableViewCellAccessory.DisclosureIndicator;
-			return cell;
-		}
+        public override UITableViewCell GetCell(Cell item, UITableViewCell reusableCell, UITableView tv)
+        {
+            UITableViewCell cell = base.GetCell (item, reusableCell, tv);
+            cell.Accessory = UITableViewCellAccessory.DisclosureIndicator;
+            return cell;
+        }
 	}
 }
 
