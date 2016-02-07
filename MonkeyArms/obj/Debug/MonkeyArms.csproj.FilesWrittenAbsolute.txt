@@ -1,6 +1,6 @@
-/work/rendr/STLBrewReviewXamarin/MonkeyArms/obj/Debug/.NETPortable,Version=v4.0,Profile=Profile37.AssemblyAttribute.cs
-/work/rendr/STLBrewReviewXamarin/MonkeyArms/bin/Debug/MonkeyArms.dll.mdb
-/work/rendr/STLBrewReviewXamarin/MonkeyArms/bin/Debug/MonkeyArms.dll
-/work/rendr/STLBrewReviewXamarin/MonkeyArms/obj/Debug/MonkeyArms.dll
-/work/rendr/STLBrewReviewXamarin/MonkeyArms/obj/Debug/MonkeyArms.dll.mdb
-/work/rendr/STLBrewReviewXamarin/MonkeyArms/bin/Debug/TinyIOC.dll
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/obj/Debug/.NETPortable,Version=v4.0,Profile=Profile37.AssemblyAttribute.cs
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/bin/Debug/MonkeyArms.dll.mdb
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/bin/Debug/MonkeyArms.dll
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/obj/Debug/MonkeyArms.dll
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/obj/Debug/MonkeyArms.dll.mdb
+/Users/ben/Documents/Work/STLBrewReviewXamarin/MonkeyArms/bin/Debug/TinyIOC.dll
