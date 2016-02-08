@@ -1,0 +1,427 @@
+[
+	{
+        "address": "1727 Park Ave St. Louis 63104",
+        "createdAt": "2014-09-13T23:25:45.833Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T23:27:00.000Z"
+        },
+        "description": "Located at the corner of Park Avenue \u0026 18th Street in Lafayette Square, we offer hand-crafted beers, spirits \u0026 a casual dining experience for all to enjoy!",
+        "email": "info@squareonebrewery.com",
+        "facebook_url": "https://www.facebook.com/Square.One.Brewery.and.Distillery",
+        "image_url": "http://rendr.io/brew_atlas/square_one.png",
+        "lat": 38.617017,
+        "long": -90.211024,
+        "name": "Square One Brewery \u0026 Distillery",
+        "objectId": "2V1UFDNGTx",
+        "phone": "(314) 231-2537",
+        "rss_url": null,
+        "short_name": "square_one",
+        "twitter_handle": "SquareOneBrews",
+        "updatedAt": "2014-09-14T17:30:54.809Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T23:27:00.000Z"
+        },
+        "website_url": "http://www.squareonebrewery.com/"
+    },
+	{
+        "address": "105 E Jefferson Ave Kirkwood, Missouri, 63122-4025",
+        "createdAt": "2014-09-13T22:32:54.290Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T22:33:00.000Z"
+        },
+        "description": "Kirkwood Station Brewing Co., formerly Highlands Brewing Co.",
+        "email": "info@kirkwoodstationbrewing.com",
+        "facebook_url": "https://www.facebook.com/KirkwoodStationBrewing",
+        "image_url": "http://rendr.io/brew_atlas/kirkwood_station.png",
+        "lat": 38.582536,
+        "long": -90.405675,
+        "name": "Kirkwood Station Brewing Company",
+        "objectId": "4MzSU5ASc9",
+        "phone": "(314) 966-2739",
+        "rss_url": null,
+        "short_name": "kirkwood",
+        "twitter_handle": "Kstationbrewer",
+        "updatedAt": "2014-09-14T17:31:56.955Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T22:35:00.000Z"
+        },
+        "website_url": "http://kirkwoodstationbrewing.com/"
+    },
+	{
+        "address": "26 West Industrial Drive O'Fallon, MO 63366",
+        "beers": null,
+        "createdAt": "2014-06-17T15:43:07.665Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "description": "Featuring a 15 barrel brewhouse outside of Saint Louis in O'Fallon, Missouri, O'Fallon Brewery prides itself on hand filling each keg that makes it way out into the world every two weeks. However, as demand for its beer has increased O'Fallon Brewery has partnered with Stevens Point Brewery to meet market demands. Never fear though. Each bottled beer is made with the same recipe and standards as those made in Saint Louis.",
+        "email": null,
+        "facebook_url": "http://www.facebook.com/pages/OFallon-Brewery/119494848079730",
+        "image_url": "http://rendr.io/brew_atlas/ofallon.png",
+        "lat": 38.805807,
+        "long": -90.753246,
+        "name": "O'Fallon Brewery",
+        "objectId": "99SQSFW5Jx",
+        "phone": "636.474.2337",
+        "rss_url": "http://ofallonbrewery.blogspot.com/feeds/posts/default",
+        "short_name": "ofallon_brewery",
+        "twitter_handle": "OFallonBrewery",
+        "updatedAt": "2014-09-14T17:35:38.773Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "website_url": "http://www.ofallonbrewery.com/"
+    },
+	{
+        "address": "3690 Forest Park Ave. St. Louis, MO 63108",
+        "beers": null,
+        "createdAt": "2014-06-17T15:43:07.621Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "description": "From the old Falstaff Brewery located in Saint Louis's midtown, Six Row Brewing Company brews quality craft beers. Enjoy a pint at Six Row's Old Plant No. 1 Pub near Saint Louis University. Open to the community Six Row's pub also features other local Saint Louis craft beers.",
+        "email": "info@4handsbrewery.com",
+        "facebook_url": "http://www.facebook.com/pages/Six-Row-Brewing-Company/113509617527",
+        "image_url": "http://rendr.io/brew_atlas/six_row.png",
+        "lat": 38.633549,
+        "long": -90.237621,
+        "name": "Six Row Brewing Company",
+        "objectId": "F2wNJ56Yc2",
+        "phone": null,
+        "rss_url": null,
+        "short_name": "six_row_brewing_company",
+        "twitter_handle": "sixrowbrewco",
+        "updatedAt": "2014-09-14T17:36:30.229Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "website_url": "http://sixrowbrewco.com/"
+    },
+	{
+        "address": "3714 Holt Ave Saint Louis, MO 63116",
+        "beers": null,
+        "createdAt": "2014-06-17T15:43:07.575Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "description": "Hailing from south city, Civil Life pursues the crafting of fine ales and beers much like how our forefathers pursued the birth of our fine democracy. We are also sure the fine people of Civil Life enjoy beer just as much, if not more, than our founding fathers. Featuring a two level tasting room in Saint Louis's south city, Civil Life is a great place to tilt back a few session beers and still be coherent enough to indulge in good conversation and debate.",
+        "email": null,
+        "facebook_url": "http://www.facebook.com/pages/The-Civil-Life-Brewing-Company/178605472152549",
+        "image_url": "http://rendr.io/brew_atlas/civil_life.png",
+        "lat": 38.590624,
+        "long": -90.257897,
+        "name": "Civil Life",
+        "objectId": "HnrF8nxgkJ",
+        "phone": null,
+        "rss_url": null,
+        "short_name": "civil_life",
+        "twitter_handle": "thecivillife",
+        "updatedAt": "2014-09-14T17:38:12.054Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "website_url": "http://www.thecivillifebrewingcompany.com/"
+    },
+	{
+        "address": "5521 Water Street Augusta, MO  63332",
+        "beers": null,
+        "createdAt": "2014-06-17T15:43:07.567Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "description": "Augusta Brewing Company is the beer oasis that makes long bike rides down the KATY Trail so worthwhile and/or possible. Lacking the conventional anemities of the other breweries, Augusta Brewing makes up for it with access to nature that only Missouri can provide.",
+        "email": "terry@augustabrewing.com",
+        "facebook_url": "http://www.facebook.com/pages/Augusta-Brewing-Company/120235241347240",
+        "image_url": "http://rendr.io/brew_atlas/augusta.png",
+        "lat": 38.570523,
+        "long": -90.88022,
+        "name": "Augusta Brewing Company",
+        "objectId": "OATaC8zF54",
+        "phone": "636-482-BEER",
+        "rss_url": null,
+        "short_name": "augusta_brewing_company",
+        "twitter_handle": null,
+        "updatedAt": "2014-09-14T17:38:56.447Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "website_url": "http://www.augustabrewing.com/"
+    },
+	{
+        "address": "3229 Washington Ave St Louis, MO 63103",
+        "beers": null,
+        "createdAt": "2014-06-17T15:43:07.629Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "description": "Using words and phrases such as 'revolution' and 'Beer Divergency,' Urban Chestnut strives to stay on the forefront of unconventional thinking while simultaneously honoring the rich traditions of brewing beer. One can witness Urban Chestnut contributing to the craft beer revolution at their gorgeous brewery and beer garden located in the heart of Saint Louis's midtown.",
+        "email": null,
+        "facebook_url": "http://www.facebook.com/pages/Urban-Chestnut-Brewing-Co/131809476862313",
+        "image_url": "http://rendr.io/brew_atlas/ubcb.png",
+        "lat": 38.637935,
+        "long": -90.225817,
+        "name": "Urban Chestnut",
+        "objectId": "RN40CO6Oia",
+        "phone": null,
+        "rss_url": null,
+        "short_name": "urban_chestnut",
+        "twitter_handle": "urbanchestnut",
+        "updatedAt": "2014-09-14T17:36:10.754Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "website_url": "http://urbanchestnut.com/"
+    },
+	{
+        "address": "1220 S. 8th Street St Louis MO 63104",
+        "beers": null,
+        "createdAt": "2014-06-17T15:43:07.611Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "description": "With the motto, \"Ales without borders,\" 4 Hands Brewing Co brews edgy new beers with names like 'War Hammer' and 'Divided Sky Rye IPA.' From their tasting room just south of Saint Louis's downtown, one can watch these beautiful beers come to life and rest a pint on tables crafted from aged industrial materials. Proving once again, Saint Louis brewers are looking to make old new again.",
+        "email": "info@4handsbrewery.com",
+        "facebook_url": "http://www.facebook.com/4HandsBrewingCompany",
+        "image_url": "http://rendr.io/brew_atlas/hands.png",
+        "lat": 38.614956,
+        "long": -90.197593,
+        "name": "4 Hands Brewing Co.",
+        "objectId": "RZDk8Tu4Fm",
+        "phone": null,
+        "rss_url": null,
+        "short_name": "4_hands_brewing_company",
+        "twitter_handle": "4handsbrewery",
+        "updatedAt": "2014-09-14T17:37:34.947Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "website_url": "http://4handsbrewery.com/"
+    },
+	{
+        "address": "8125 Michigan Ave St Louis, MO 63111, USA",
+        "beers": null,
+        "createdAt": "2014-06-17T15:43:07.616Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "description": "Laying claim to the southern most territory of Saint Louis's beer country, Perennial Artisan Ales specializes in farmhouse and seasonal ales, and cellaring varieties that are intended to improve as time passes. By experiementing with rhubarb and strawberries Perennial Artisan Ales also proves it will not be shackled by convetion nor perception.",
+        "email": null,
+        "facebook_url": "http://www.facebook.com/perennialbeer",
+        "image_url": "http://rendr.io/brew_atlas/perrenial.png",
+        "lat": 38.545092,
+        "long": -90.264796,
+        "name": "Perennial Artisan Ales",
+        "objectId": "ZiwxW8IbfW",
+        "phone": null,
+        "rss_url": null,
+        "short_name": "perennial_artisan_ales",
+        "twitter_handle": "PerennialBeer",
+        "updatedAt": "2014-09-14T17:36:47.278Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "website_url": "http://www.perennialbeer.com/"
+    },
+	{
+        "address": "3100 Olive St. St Louis MO 63103",
+        "beers": null,
+        "createdAt": "2014-06-17T15:43:07.568Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "description": "If you find yourself in Saint Louis's midtown after consuming large quantities of Pappy's BBQ, Buffalo Brewing Company offers a respite before your bloated journey home (or to your car.) Kick back, drink a beer, and enjoy the unique beers that Buffalo Brewing Company has to offer. Just try to not fall asleep.",
+        "email": "Feedback@buffalobrewingstl.com",
+        "facebook_url": "http://www.facebook.com/pages/Buffalo-Brewing-Co/161505407201442",
+        "image_url": "http://bloximages.newyork1.vip.townnews.com/feaststl.com/content/tncms/assets/v3/editorial/8/c7/8c781b40-a018-11e0-a07b-0019bb30f31a/4e076a4bb8d41.image.jpg",
+        "lat": 38.634858,
+        "long": -90.224229,
+        "name": "Buffalo Brewing Company",
+        "objectId": "d3HPzrWB47",
+        "phone": "314-534-BEER",
+        "rss_url": null,
+        "short_name": "buffalo_brewing_company",
+        "twitter_handle": "buffalobrewco",
+        "updatedAt": "2014-09-14T17:38:28.468Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "website_url": "http://www.buffalobrewingstl.com/"
+    },
+	{
+        "address": "The Saint Louis Brewery, Inc. 2100 Locust Street, St. Louis, MO 63103",
+        "beers": null,
+        "createdAt": "2014-06-17T15:43:07.601Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "description": "Having been around Saint Louis for 20 plus years, it would be easy to label Schlafly as the old fogey. Schlafly is boldly proving that sentiment wrong with its Tap Room and Bottleworks breweries that are turning out 60 plus beers a year. These Schlafly venues also feature live music, good food, and numerous events throughout the year.",
+        "email": "questions@schlafly.com",
+        "facebook_url": "http://www.facebook.com/schlafly.beer.fans",
+        "image_url": "http://rendr.io/brew_atlas/schlafly.png",
+        "lat": 38.632968,
+        "long": -90.209769,
+        "name": "Schlafly",
+        "objectId": "dznJuzUvWY",
+        "phone": " 314-241-BEER",
+        "rss_url": "http://www.schlafly.com/community/blog/rss",
+        "short_name": "schlafly_bottle_works",
+        "twitter_handle": "schlafly",
+        "updatedAt": "2014-09-14T17:37:55.203Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2012-02-25T22:22:56.000Z"
+        },
+        "website_url": "http://www.schlafly.com/"
+    },
+	{
+        "address": "5505 HIGHWAY N, STE 113 COTTLEVILLE, MO 63304",
+        "createdAt": "2014-09-13T22:19:56.702Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T22:20:00.000Z"
+        },
+        "description": "We are St Charles County's first nano-brewery. In house brewed beers isn't the only thing you can get. We offer 70 different craft beers, 23 beers on tap and 5 made right here in house. Craft beer and craft beer only. No crap on tap! NOTHING is made by AB-In Bev, Miller, or Coors. Our tap list changes weekly and we are always putting on something new. We don't have the widest selection in town, but we have the best.",
+        "email": null,
+        "facebook_url": "https://www.facebook.com/exitsix",
+        "image_url": "http://rendr.io/brew_atlas/exit_6.png",
+        "lat": 38.751493,
+        "long": -90.652704,
+        "name": "Exit 6 Pub and Brewery",
+        "objectId": "gvyZybTsCf",
+        "phone": "(636) 244-4343",
+        "rss_url": null,
+        "short_name": "exit_6",
+        "twitter_handle": "Exit6brewery",
+        "updatedAt": "2014-09-14T17:32:55.834Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T22:21:00.000Z"
+        },
+        "website_url": "http://exit6brewery.com/"
+    },
+	{
+        "address": "721 N 2nd St Saint Louis, Missouri, 63102-2518",
+        "createdAt": "2014-09-13T23:21:24.522Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T23:22:00.000Z"
+        },
+        "description": "Founded in 1995, Morgan Street Brewery is one of the oldest buildings in historic Laclede’s Landing. It’s where St. Louis - and thousands of visitors from other cities – go for good times, great food and fabulous beer made on the premises in Morgan Street’s micro-brewery.",
+        "email": "info@morganstreetbrewery.com",
+        "facebook_url": "https://www.facebook.com/morganstreetbrewery",
+        "image_url": "http://rendr.io/brew_atlas/morgan_street.png",
+        "lat": 38.630244,
+        "long": -90.184554,
+        "name": "Morgan Street Brewery",
+        "objectId": "iUe4qY7LIT",
+        "phone": "(314) 231-9970",
+        "rss_url": null,
+        "short_name": "morgan_street",
+        "twitter_handle": "morganstbrewery ",
+        "updatedAt": "2014-09-14T17:31:27.109Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T23:23:00.000Z"
+        },
+        "website_url": "http://www.morganstreetbrewery.com/"
+    },
+	{
+        "address": "3914 Lindell Blvd Saint Louis, Missouri, 63108-3204",
+        "createdAt": "2014-09-13T22:13:50.307Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T22:16:00.000Z"
+        },
+        "description": "Cathedral Square Brewery serves 5 beers in MO,IL,KS. Head brewmaster is Brian Neville. We were founded in March 2009. We offer 22oz bottles and draught beer.",
+        "email": null,
+        "facebook_url": "https://www.facebook.com/cathedral.square.brew",
+        "image_url": "http://rendr.io/brew_atlas/cathedral_square.png",
+        "lat": 38.63867,
+        "long": -90.241772,
+        "name": "Cathedral Square Brewery",
+        "objectId": "mZi5cCEKzI",
+        "phone": "(314) 803-3605",
+        "rss_url": null,
+        "short_name": "cathedral",
+        "twitter_handle": "CSBSTL",
+        "updatedAt": "2014-09-14T17:34:04.231Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T22:15:00.000Z"
+        },
+        "website_url": "http://www.cathedralsquarebrewery.com/index.html"
+    },
+	{
+        "address": "6413 Clayton Ave. Saint Louis, Missouri 63139",
+        "createdAt": "2014-09-13T22:25:02.202Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T22:25:00.000Z"
+        },
+        "description": "Heavy Riff Brewing Company is the first brewery to open in the storied neighborhood known as Dogtown. We craft delicious Ales and Lagers and love listening to great tunes.",
+        "email": null,
+        "facebook_url": "https://www.facebook.com/pages/Heavy-Riff-Brewing-Company/275969892462890",
+        "image_url": "http://rendr.io/brew_atlas/heavy_riff.png",
+        "lat": 38.628938,
+        "long": -90.293391,
+        "name": "Heavy Riff Brewing",
+        "objectId": "qIaShXDBLL",
+        "phone": null,
+        "rss_url": null,
+        "short_name": "heavy_riff",
+        "twitter_handle": "heavyriffbeer ",
+        "updatedAt": "2014-09-14T17:32:16.747Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T22:26:00.000Z"
+        },
+        "website_url": "http://www.heavyriffbrewing.com/"
+    },
+	{
+        "address": "1409 Washington Ave, St Louis, MO 63103",
+        "createdAt": "2014-09-13T22:00:15.037Z",
+        "created_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T22:03:00.000Z"
+        },
+        "description": "St. Louis Microbrewery. We have a tasting room with 10 beers on draught and more in bottles",
+        "email": null,
+        "facebook_url": "https://www.facebook.com/pages/Alpha-Brewing-Co/299694693433793",
+        "image_url": "http://rendr.io/brew_atlas/alpha.png",
+        "lat": 38.632736,
+        "long": -90.199898,
+        "name": "Alpha Brewing",
+        "objectId": "zMPHDszXZs",
+        "phone": "314-621-BEER",
+        "rss_url": null,
+        "short_name": "alpha",
+        "twitter_handle": "alphabrewingco",
+        "updatedAt": "2014-09-14T17:34:31.138Z",
+        "updated_at": {
+            "__type": "Date",
+            "iso": "2014-09-13T22:03:00.000Z"
+        },
+        "website_url": "http://www.alphabrewingcompany.com/"
+    }
+] 

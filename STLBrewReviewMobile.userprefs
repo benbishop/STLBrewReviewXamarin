@@ -1,8 +1,12 @@
 ﻿<Properties StartupItem="iOS/STLBrewReviewMobile.iOS.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Android/Resources/Resource.designer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
-      <File FileName="Android/Resources/Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="Mobile/Breweries/List/BreweriesListView.cs" Line="24" Column="49" />
+      <File FileName="Mobile/Global/BrewReviewTextCell.cs" Line="6" Column="2" />
+      <File FileName="Mobile/Json/Beer.json" Line="15" Column="9" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="22" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

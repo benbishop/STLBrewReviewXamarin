@@ -106,6 +106,7 @@
     <Folder Include="Config\" />
     <Folder Include="Breweries\List\" />
     <Folder Include="Breweries\Detail\" />
+    <Folder Include="Json\" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>
@@ -121,5 +122,9 @@
       <Project>{719271A3-4A60-48C7-8A8A-3495B8D524A0}</Project>
       <Name>MonkeyArms</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Json\Beer.json" />
+    <EmbeddedResource Include="Json\Brewery.json" />
   </ItemGroup>
 </Project>
